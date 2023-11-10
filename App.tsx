@@ -8,6 +8,7 @@ ScrollView
 import  FlatCards  from './components/FlatCards';
 import ElevatedCards from './components/ElevatedCards';
 import FancyCard from './components/FancyCard';
+import ActionsCard from './components/ActionsCard';
 function App() {
   return(
     <SafeAreaView>
@@ -17,8 +18,10 @@ function App() {
         <FlatCards/>
         <ElevatedCards/>
         <FancyCard/>
-        <FancyCard/>
+       
+        <ActionsCard/>
         </ScrollView>
+        
 
       
     </SafeAreaView>

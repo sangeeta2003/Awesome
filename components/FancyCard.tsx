@@ -15,8 +15,8 @@ export default function FancyCard() {
         <View style={styles.cardBody}>
 <Text style={styles.cardTitle}>Hawamahal</Text>
 <Text style={styles.cardLabel}>Pink city,jaypore</Text>
-<Text style={styles.describition}>Mahla is placed in jeypre.it is so beautiful</Text>
-<Text style={styles.footer}>bye bye</Text>
+<Text style={styles.describition}>Built in 1799 by Maharaja Sawai Pratap Singh, Hawa Mahal is a unique structure with a distinctive honeycomb-like façade. The palace is constructed of red and pink sandstone, reflecting the architectural style of the region.</Text>
+<Text style={styles.footer}>12 min away</Text>
         </View>
 
       </View>
@@ -26,19 +26,21 @@ export default function FancyCard() {
 
 const styles = StyleSheet.create({
     cardimage:{
-width:100,
-height:100,
+// width:100,
+height:190,
     },
     cardBody:{
 flex:1,
 flexGrow :1,
 paddingHorizontal  :12,
+backgroundColor:'#ffffff',
     },
     cardTitle:{
 color:'#000000',
 fontSize:22,
 fontWeight:'bold',
-marginBottom:6
+marginBottom:6,
+marginLeft:9,
     },
     cardLabel:{
 color:'#000000',
