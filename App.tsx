@@ -19,9 +19,9 @@ function App() {
         <FlatCards/>
         <ElevatedCards/>
         <FancyCard/>
-       
-        <ActionsCard/>
         <ContactList/>
+        <ActionsCard/>
+        
         </ScrollView>
         
 

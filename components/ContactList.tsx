@@ -36,8 +36,10 @@ scrollEnabled={false}
         uri:imageUrl
     }}
     style={styles.userImage}/>
+    <View>
     <Text style={styles.username}>{name}</Text>
     <Text style={styles.userstatus}>{status}</Text>
+    </View>
 </View>
     )
 
@@ -49,23 +51,35 @@ scrollEnabled={false}
 
 const styles = StyleSheet.create({
     headingText:{
+fontSize:24,
+fontWeight:'bold',
+paddingHorizontal:8
 
     },
     container:{
-
+paddingHorizontal:16
     },
     usercard:{
-
+flex:1,
+flexDirection:'row',
+alignItems:'center',
+marginBottom:3,
+backgroundColor:'#8D3DAF',
+padding:8,
+borderRadius:10
     },
     userImage:{
 width:60,
 height:60,
-borderRadius:30
+borderRadius:60/2,
+marginRight:14
     },
     username:{
-
+fontSize:16,
+fontWeight:'600',
+color:'#fff'
     },
     userstatus:{
-
+fontSize:12
   }
 })
