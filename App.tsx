@@ -9,6 +9,7 @@ import  FlatCards  from './components/FlatCards';
 import ElevatedCards from './components/ElevatedCards';
 import FancyCard from './components/FancyCard';
 import ActionsCard from './components/ActionsCard';
+import ContactList from './components/ContactList';
 function App() {
   return(
     <SafeAreaView>
@@ -20,6 +21,7 @@ function App() {
         <FancyCard/>
        
         <ActionsCard/>
+        <ContactList/>
         </ScrollView>
         
 
